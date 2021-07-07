@@ -14,14 +14,14 @@ public class employeeInfo {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://ssupgrade.softalliance.com:4581/softsuite/f?p=2000004:LOGIN:0:::::&tz=1:00"); //Navigate to SSUPGRADE
+		driver.get(""); //Navigate to SSUPGRADE
 		
 		driver.manage().window().maximize(); //Maximize the window
 		
 		//<-----------Declare my login details
 		
 		String Username = "DEMO USER";
-		String Password = "Password@123";
+		String Password = "";
 		
 		//<-------------Input the Login Details---------------->
 		
