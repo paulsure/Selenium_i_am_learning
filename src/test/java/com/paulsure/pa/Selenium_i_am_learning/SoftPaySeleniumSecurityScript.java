@@ -16,7 +16,7 @@ public class SoftPaySeleniumSecurityScript {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\poluwagbemiga\\eclipse-workspace\\KashiarWebUI\\src\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://172.30.50.10/");
+		driver.get("");
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("goldedgeltd11@gmail.com");
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Password@18");
 		driver.findElement(By.xpath("//button[contains(text(),'Login')]")).click();
