@@ -21,7 +21,7 @@ public class KashiarSeleniumScript {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\poluwagbemiga\\eclipse-workspace\\KashiarWebUI\\src\\chromedriver22.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://iecr.softalliance.com/");
+		driver.get("");
 		
 		driver.findElement(By.xpath("//a[contains(text(),'Register')]")).click();
 		Thread.sleep(2000);
