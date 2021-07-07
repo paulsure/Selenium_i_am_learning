@@ -11,9 +11,9 @@ public class KashairTest {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://kashiar.softalliance.com/");
+		driver.get("");
 		driver.findElement(By.xpath("//input[@name='phone_number']")).sendKeys("07050364913");
-		driver.findElement(By.xpath("//input[@aria-label='Pin Code']")).sendKeys("12345");
+		driver.findElement(By.xpath("//input[@aria-label='Pin Code']")).sendKeys();
 		//driver.findElement(By.xpath("//input[@placeholder='Enter pin']")).sendKeys("");
 		
 		driver.findElement(By.className("v-btn__content")).click(); //getText();
